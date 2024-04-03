@@ -7,7 +7,9 @@ import org.openqa.selenium.WebDriver;
 
 public class Auth_Supervisor_Actions {
 
+
     //***********************************//variables//***********************************//
+    //For Merged Roles only//
 //    protected WebDriver SeleniumDriver;
     private final SHAFT.GUI.WebDriver driver;
 
