@@ -1,7 +1,7 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Demo">
 <!--    <parameter name="browser" value="chrome" />-->
-    <test name="Inheritance Flow Demo">
+    <test name="Merged Roles Demo Flow">
         <classes>
             <class name="LoginInternalTest">
 <!--                <methods>-->
@@ -10,7 +10,7 @@
 <!--                </methods>-->
             </class>
 <!--            <class -->
-<!--                    name="Inheritance_DemoFlow">-->
+<!--                    name="MergedRoles_DemoFlow">-->
 <!--            </class>-->
 
         </classes>
