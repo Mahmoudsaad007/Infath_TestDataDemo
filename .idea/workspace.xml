@@ -4,44 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="687c27d5-f04d-482a-a71b-3496bf9ef25c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/InheritancePages/Auth_Supervisor_Actions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/InheritancePages/Collector_Actions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/InheritancePages/EvaluatorOrSP_Actions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/InheritancePages/LoginExternal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/InheritancePages/LoginInternal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/InheritancePages/PurchasingManag_Actions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/InheritancePages/Specialist_Actions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/InheritancePages/Supervisior_Actions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/InheritancePages/justiceWriter_Actions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/properties/ExecutionPlatform.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/properties/MobileCapabilities.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/properties/PlatformFlags.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/properties/Reporting.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/properties/TestNG.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/properties/Timeouts.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/properties/VisualValidations.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/properties/WebCapabilities.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/properties/cucumber.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/properties/customWebdriverCapabilities.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/properties/default/TestNG.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/properties/default/cucumber.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/properties/default/customWebdriverCapabilities.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/properties/default/log4j2.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/properties/log4j2.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Inheritance_DemoFlow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/LoginInternalTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/testDataFiles/UsersCredentials.Json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/testDataFiles/test1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/testDataFiles/test2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testNG.xml" afterDir="false" />
+    <list default="true" id="687c27d5-f04d-482a-a71b-3496bf9ef25c" name="Changes" comment="1 structure for Automation Demo By SHAFT">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/InheritancePages/Auth_Supervisor_Actions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/InheritancePages/Auth_Supervisor_Actions.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +22,17 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--follow-tags" />
+        <option name="title" value="Current Branch" />
+      </GitPushTagMode>
+    </option>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="Infath_Inheritance" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
@@ -77,10 +54,11 @@
     "Maven.Inheritance_Flow1 [test].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "TestNG.D:/Projects/Infath/Automation Codes/TestData_Prep/Inheritance_Flow1/testNG.xml.executor": "Run",
     "TestNG.LoginInternalTest (1).executor": "Run",
     "TestNG.LoginInternalTest.executor": "Run",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "Merged__Roles",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "D:/Projects/Infath/Automation Codes/from Colleages/from Omar Sami/InheritancesFlow",
     "project.structure.last.edited": "SDKs",
@@ -161,9 +139,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.LoginInternalTest" />
         <item itemvalue="TestNG.D:/Projects/Infath/Automation Codes/TestData_Prep/Inheritance_Flow1/testNG.xml" />
         <item itemvalue="TestNG.LoginInternalTest" />
-        <item itemvalue="TestNG.LoginInternalTest" />
+        <item itemvalue="TestNG.D:/Projects/Infath/Automation Codes/TestData_Prep/Inheritance_Flow1/testNG.xml" />
+        <item itemvalue="TestNG.D:/Projects/Infath/Automation Codes/TestData_Prep/Inheritance_Flow1/testNG.xml" />
       </list>
     </recent_temporary>
   </component>
@@ -183,6 +163,19 @@
       <option name="presentableId" value="Default" />
       <updated>1712109734878</updated>
     </task>
+    <task id="LOCAL-00001" summary="1 structure for Automation Demo By SHAFT">
+      <option name="closed" value="true" />
+      <created>1712119689013</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1712119689013</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1 structure for Automation Demo By SHAFT" />
+    <option name="LAST_COMMIT_MESSAGE" value="1 structure for Automation Demo By SHAFT" />
   </component>
 </project>

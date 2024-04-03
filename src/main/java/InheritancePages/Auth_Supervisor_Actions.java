@@ -9,7 +9,7 @@ public class Auth_Supervisor_Actions {
 
 
     //***********************************//variables//***********************************//
-    //For Merged Roles only//
+    // For Merged Roles only//
 //    protected WebDriver SeleniumDriver;
     private final SHAFT.GUI.WebDriver driver;
 
