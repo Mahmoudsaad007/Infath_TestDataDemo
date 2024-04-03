@@ -3,9 +3,8 @@ package InheritancePages;
 import com.shaft.driver.SHAFT;
 import com.shaft.validation.Validations;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
 
-public class Auth_Supervisor_Actions {
+public class InheritFinancial_Manager_Actions {
 
     //***********************************//variables//***********************************//
 //    protected WebDriver SeleniumDriver;
@@ -13,7 +12,7 @@ public class Auth_Supervisor_Actions {
 
 
     //***********************************//Constructor//***********************************//
-    public Auth_Supervisor_Actions(SHAFT.GUI.WebDriver driver) {
+    public InheritFinancial_Manager_Actions(SHAFT.GUI.WebDriver driver) {
         this.driver = driver;
     }
 

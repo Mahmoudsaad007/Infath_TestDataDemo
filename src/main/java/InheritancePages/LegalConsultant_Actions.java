@@ -4,7 +4,7 @@ import com.shaft.driver.SHAFT;
 import com.shaft.validation.Validations;
 import org.openqa.selenium.By;
 
-public class Supervisior_Actions {
+public class LegalConsultant_Actions {
 
     //***********************************//variables//***********************************//
 //    protected WebDriver SeleniumDriver;
@@ -12,7 +12,7 @@ public class Supervisior_Actions {
 
 
     //***********************************//Constructor//***********************************//
-    public Supervisior_Actions(SHAFT.GUI.WebDriver driver) {
+    public LegalConsultant_Actions(SHAFT.GUI.WebDriver driver) {
         this.driver = driver;
     }
 

@@ -4,7 +4,7 @@ import com.shaft.driver.SHAFT;
 import com.shaft.validation.Validations;
 import org.openqa.selenium.By;
 
-public class justiceWriter_Actions {
+public class InheritManager_Actions {
 
     //***********************************//variables//***********************************//
 //    protected WebDriver SeleniumDriver;
@@ -12,7 +12,7 @@ public class justiceWriter_Actions {
 
 
     //***********************************//Constructor//***********************************//
-    public justiceWriter_Actions(SHAFT.GUI.WebDriver driver) {
+    public InheritManager_Actions(SHAFT.GUI.WebDriver driver) {
         this.driver = driver;
     }
 

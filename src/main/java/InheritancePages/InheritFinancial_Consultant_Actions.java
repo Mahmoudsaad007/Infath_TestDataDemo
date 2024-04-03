@@ -4,7 +4,7 @@ import com.shaft.driver.SHAFT;
 import com.shaft.validation.Validations;
 import org.openqa.selenium.By;
 
-public class Collector_Actions {
+public class InheritFinancial_Consultant_Actions {
 
     //***********************************//variables//***********************************//
 //    protected WebDriver SeleniumDriver;
@@ -12,7 +12,7 @@ public class Collector_Actions {
 
 
     //***********************************//Constructor//***********************************//
-    public Collector_Actions(SHAFT.GUI.WebDriver driver) {
+    public InheritFinancial_Consultant_Actions(SHAFT.GUI.WebDriver driver) {
         this.driver = driver;
     }
 
