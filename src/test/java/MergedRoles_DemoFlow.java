@@ -2,12 +2,11 @@ import InheritancePages.LegalConsultant_Actions;
 import InheritancePages.LoginInternal;
 import InheritancePages.Specialist_Actions;
 import com.shaft.driver.SHAFT;
-import com.shaft.validation.Validations;
 import io.qameta.allure.Description;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
-public class Inheritance_DemoFlow {
+public class MergedRoles_DemoFlow {
 
     private SHAFT.GUI.WebDriver driver;
     private LegalConsultant_Actions legalConsultantActions;

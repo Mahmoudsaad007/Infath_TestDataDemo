@@ -3,14 +3,14 @@
 <!--    <parameter name="browser" value="chrome" />-->
     <test name="Inheritance Flow Demo All in One ">
         <classes>
-            <class name="Inheritance_DemoFlow">
+            <class name="MergedRoles_DemoFlow">
 <!--                <methods>-->
 <!--                    <include name="" />-->
 <!--                    <include name="" />-->
 <!--                </methods>-->
             </class>
 <!--            <class -->
-<!--                    name="Inheritance_DemoFlow">-->
+<!--                    name="MergedRoles_DemoFlow">-->
 <!--            </class>-->
 
         </classes>
