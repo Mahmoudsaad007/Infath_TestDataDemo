@@ -4,19 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="687c27d5-f04d-482a-a71b-3496bf9ef25c" name="Changes" comment="Update Merged Roles Flow Classes Name">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/aws.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="687c27d5-f04d-482a-a71b-3496bf9ef25c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/InheritancePages/EvaluatorOrSP_Actions.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/InheritancePages/LegalConsultant_Actions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/InheritancePages/LegalConsultant_Actions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/InheritancePages/LoginInternal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/InheritancePages/LoginInternal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/InheritancePages/Specialist_Actions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/InheritancePages/Specialist_Actions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Inheritance_DemoFlow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Inheritance_DemoFlow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/LoginInternalTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/testDataFiles/UsersCredentials.Json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testDataFiles/UsersCredentials.Json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testNG.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testNG.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,15 +20,16 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="Infath_Inheritance" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="jar://$MAVEN_REPOSITORY$/org/testng/testng/7.8.0/testng-7.8.0-sources.jar!/org/testng/xml/XmlClass.java" root0="SKIP_INSPECTION" />
   </component>
-  <component name="ProjectColorInfo">{
-  &quot;customColor&quot;: &quot;&quot;,
-  &quot;associatedIndex&quot;: 6
-}</component>
   <component name="ProjectId" id="2eZQgcFPOpaS06qC6D9yEoJabAT" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -53,23 +43,13 @@
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "Maven.Inheritance_Flow1 [clean].executor": "Run",
     "Maven.Inheritance_Flow1 [compile].executor": "Run",
-    "Maven.Inheritance_Flow1 [deploy].executor": "Run",
-    "Maven.Inheritance_Flow1 [install].executor": "Run",
-    "Maven.Inheritance_Flow1 [package].executor": "Run",
-    "Maven.Inheritance_Flow1 [site].executor": "Run",
     "Maven.Inheritance_Flow1 [test].executor": "Run",
-    "Maven.Inheritance_Flow1 [validate].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "TestNG.D:/Projects/Infath/Automation Codes/TestData_Prep/Inheritance_Flow1/testNG.xml.executor": "Run",
-    "TestNG.Inheritance_DemoFlow (1).executor": "Run",
-    "TestNG.Inheritance_DemoFlow.assignSpecialistByLegalConsultant.executor": "Run",
-    "TestNG.Inheritance_DemoFlow.executor": "Run",
-    "TestNG.Inheritance_DemoFlow.loginInternalUserAsSupervisor.executor": "Run",
     "TestNG.LoginInternalTest (1).executor": "Run",
     "TestNG.LoginInternalTest.executor": "Run",
-    "git-widget-placeholder": "Infath__Inheritance",
+    "git-widget-placeholder": "Infath__Inheritance(Merged-Role)",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "D:/Projects/Infath/Automation Codes/from Colleages/from Omar Sami/InheritancesFlow",
     "project.structure.last.edited": "SDKs",
@@ -89,19 +69,8 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Inheritance_DemoFlow">
-    <configuration default="true" type="JetRunConfigurationType">
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Inheritance_DemoFlow" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.D:/Projects/Infath/Automation Codes/TestData_Prep/Inheritance_Flow1/testNG.xml">
+    <configuration name="D:/Projects/Infath/Automation Codes/TestData_Prep/Inheritance_Flow1/testNG.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Inheritance_Flow1" />
       <shortenClasspath name="NONE" />
       <useClassPathOnly />
@@ -110,94 +79,35 @@
         <option name="region" />
         <option name="useCurrentConnection" value="false" />
       </extension>
-      <option name="SUITE_NAME" value="" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Inheritance_DemoFlow" />
-      <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="PARAMETERS" value="" />
-      <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <option name="PROPERTIES_FILE" value="" />
-      <properties />
-      <listeners>
-        <listener class="com.shaft.listeners.TestNGListener" />
-      </listeners>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Inheritance_DemoFlow.assignSpecialistByLegalConsultant" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Inheritance_Flow1" />
-      <shortenClasspath name="NONE" />
-      <useClassPathOnly />
-      <extension name="software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension">
-        <option name="credential" />
-        <option name="region" />
-        <option name="useCurrentConnection" value="false" />
-      </extension>
-      <option name="SUITE_NAME" value="" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Inheritance_DemoFlow" />
-      <option name="METHOD_NAME" value="assignSpecialistByLegalConsultant" />
-      <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="PARAMETERS" value="" />
-      <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <option name="PROPERTIES_FILE" value="" />
-      <properties />
-      <listeners>
-        <listener class="com.shaft.listeners.TestNGListener" />
-      </listeners>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Inheritance_DemoFlow.loginInternalUserAsSupervisor" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Inheritance_Flow1" />
-      <shortenClasspath name="NONE" />
-      <useClassPathOnly />
-      <extension name="software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension">
-        <option name="credential" />
-        <option name="region" />
-        <option name="useCurrentConnection" value="false" />
-      </extension>
-      <option name="SUITE_NAME" value="" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Inheritance_DemoFlow" />
-      <option name="METHOD_NAME" value="loginInternalUserAsSupervisor" />
-      <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="PARAMETERS" value="" />
-      <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <option name="PROPERTIES_FILE" value="" />
-      <properties />
-      <listeners>
-        <listener class="com.shaft.listeners.TestNGListener" />
-      </listeners>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="TestNG">
-      <shortenClasspath name="NONE" />
-      <useClassPathOnly />
-      <extension name="software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension">
-        <option name="credential" />
-        <option name="region" />
-        <option name="useCurrentConnection" value="false" />
-      </extension>
-      <option name="SUITE_NAME" value="" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testNG.xml" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners>
+        <listener class="com.shaft.listeners.TestNGListener" />
+      </listeners>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginInternalTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Inheritance_Flow1" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <extension name="software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension">
+        <option name="credential" />
+        <option name="region" />
+        <option name="useCurrentConnection" value="false" />
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="LoginInternalTest" />
       <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="CLASS" />
       <option name="PARAMETERS" value="" />
@@ -215,16 +125,14 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG.Inheritance_DemoFlow.assignSpecialistByLegalConsultant" />
-      <item itemvalue="TestNG.Inheritance_DemoFlow" />
-      <item itemvalue="TestNG.Inheritance_DemoFlow.loginInternalUserAsSupervisor" />
+      <item itemvalue="TestNG.D:/Projects/Infath/Automation Codes/TestData_Prep/Inheritance_Flow1/testNG.xml" />
+      <item itemvalue="TestNG.LoginInternalTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.Inheritance_DemoFlow" />
-        <item itemvalue="TestNG.Inheritance_DemoFlow.assignSpecialistByLegalConsultant" />
-        <item itemvalue="TestNG.Inheritance_DemoFlow.loginInternalUserAsSupervisor" />
-        <item itemvalue="TestNG.Inheritance_DemoFlow" />
+        <item itemvalue="TestNG.D:/Projects/Infath/Automation Codes/TestData_Prep/Inheritance_Flow1/testNG.xml" />
+        <item itemvalue="TestNG.LoginInternalTest" />
+        <item itemvalue="TestNG.LoginInternalTest" />
       </list>
     </recent_temporary>
   </component>
