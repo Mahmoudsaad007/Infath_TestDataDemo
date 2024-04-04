@@ -19,38 +19,32 @@ public class LegalConsultant_Actions {
 
     //***********************************//locators//***********************************//
 
-    public By UserName_Internal = By.xpath("//input[@id='Input_UsernameVal2']");//tomsmith
-
-    public By Password_Internal = By.xpath("//input[@id='Input_PasswordVal']"); //SuperSecretPassword!
-
-    public By Login_Btn = By.xpath("//div[@class='btn-label OSInline']");//
-
-    public By InfathLoginMsg = By.xpath("//span[@class='text-secondary']");
+    public By Assignspecialistcheckbox = By.xpath("//input[@id='b4-l10_0-56_0-Checkbox2']");
+    public By Assignspecialistbutton = By.xpath("//button[@id='b4-TasksAssign']");
+    public By choosespecialist = By.xpath("(//div/a[@class='display-flex justify-content-flex-end align-items-center'])[2]");
+    public By approvebutton = By.xpath("//button[@id='b4-b17-Confirm']");
+    public By yesbutton = By.xpath("//button[@class='btn btn-primary ThemeGrid_MarginGutter']");
 
 
 
     //***********************************//Actions//***********************************//
-    public void FunctionNameOrActionName(String name, String password) {
-        driver.element().waitToBeReady(UserName_Internal);
-        Validations.assertThat().element(driver.getDriver(), InfathLoginMsg).text().isEqualTo("من فضلك قم بتسجيل الدخول")
-                .withCustomReportMessage("Infath Login page is loaded successfully").perform();
+
+    public void Assignspecialist() throws InterruptedException
+    {
+//        driver.element().waitToBeReady(Assignspecialistcheckbox);
         driver.element()
-                .type(UserName_Internal, name)
-                .type(Password_Internal, password)
-                .click(Login_Btn);
+                .click(Assignspecialistcheckbox)
+                .click(Assignspecialistbutton)
+                .waitToBeReady(choosespecialist)
+                .click(choosespecialist)
+                .click(approvebutton)
+                .waitToBeReady(yesbutton)
+                .click(yesbutton);
     }
 
 
 //Selenium code
 
-//        public ReportListsPage login( String name, String password) {
-//            driver.navigate().to("https://es-qa.infath.sa/Eservices_Internal/Login?CurrentLocale=en-US");
-//            WaitFor(UserName_Internal);
-//            driver.findElement(UserName_Internal).sendKeys(name);
-//            driver.findElement(Password_Internal).sendKeys(password);
-//            JsClick(Login_Btn);
-////        To delete later
-//            return new ReportListsPage(driver);
-//        }
+
 
 }

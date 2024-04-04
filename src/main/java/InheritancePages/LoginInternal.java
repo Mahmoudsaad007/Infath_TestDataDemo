@@ -21,10 +21,10 @@ public class LoginInternal {
 
 
     //***********************************locators***********************************//
-//    public By UserName_Internal = By.id("Input_UsernameVal");//
-    public By UserName_Internal = By.xpath("//input[@id='Input_UsernameVal2']");//tomsmith
+    public By UserName_Internal = By.xpath("//input[@id='Input_UsernameVal']");
     //id = Input_UsernameVal2
-    public By Password_Internal = By.xpath("//input[@id='Input_PasswordVal']"); //SuperSecretPassword!
+    //input[@id='Input_UsernameVal']
+    public By Password_Internal = By.xpath("//input[@id='Input_PasswordVal']");
 //    public By Login_Btn = By.cssSelector("#b2-Button > button");
     public By Login_Btn = By.xpath("//div[@class='btn-label OSInline']");//
     //*[@id="b2-Button"]/button/div[2]
@@ -36,7 +36,7 @@ public class LoginInternal {
     //***********************************Actions***********************************//
     public void loginInternalUser(String name, String password) {
         driver.browser().navigateToURL(InternalURL);
-        driver.element().waitToBeReady(UserName_Internal);
+//        driver.element().waitToBeReady(UserName_Internal);
         Validations.assertThat().element(driver.getDriver(), InfathLoginMsg).text().isEqualTo("من فضلك قم بتسجيل الدخول")
                 .withCustomReportMessage("Infath Login page is loaded successfully").perform();
         driver.element()
