@@ -1,9 +1,8 @@
-package InheritancePages;
+package MergedRolesPages;
 
 import com.shaft.driver.SHAFT;
 import com.shaft.validation.Validations;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
 
 public class LoginInternal {
 

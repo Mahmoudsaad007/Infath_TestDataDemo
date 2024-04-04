@@ -1,10 +1,9 @@
-package InheritancePages;
+package MergedRolesPages;
 
 import com.shaft.driver.SHAFT;
-import com.shaft.validation.Validations;
 import org.openqa.selenium.By;
 
-public class LegalConsultant_Actions {
+public class Auth_Supervisor_Actions {
 
     //***********************************//variables//***********************************//
 //    protected WebDriver SeleniumDriver;
@@ -12,7 +11,7 @@ public class LegalConsultant_Actions {
 
 
     //***********************************//Constructor//***********************************//
-    public LegalConsultant_Actions(SHAFT.GUI.WebDriver driver) {
+    public Auth_Supervisor_Actions(SHAFT.GUI.WebDriver driver) {
         this.driver = driver;
     }
 

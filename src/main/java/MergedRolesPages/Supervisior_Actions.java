@@ -1,16 +1,16 @@
-package InheritancePages;
+package MergedRolesPages;
 
 import com.shaft.driver.SHAFT;
 import org.openqa.selenium.By;
 
-public class Specialist_Actions {
+public class Supervisior_Actions {
 
     //***********************************//variables//***********************************//
 //    protected WebDriver SeleniumDriver;
     private final SHAFT.GUI.WebDriver driver;
 
     //***********************************//Constructor//***********************************//
-    public Specialist_Actions(SHAFT.GUI.WebDriver driver) {
+    public Supervisior_Actions(SHAFT.GUI.WebDriver driver) {
         this.driver = driver;
     }
 

@@ -1,10 +1,10 @@
-package InheritancePages;
+package MergedRolesPages;
 
 import com.shaft.driver.SHAFT;
 import com.shaft.validation.Validations;
 import org.openqa.selenium.By;
 
-public class InheritFinancial_Consultant_Actions {
+public class PurchasingManag_Actions {
 
     //***********************************//variables//***********************************//
 //    protected WebDriver SeleniumDriver;
@@ -12,7 +12,7 @@ public class InheritFinancial_Consultant_Actions {
 
 
     //***********************************//Constructor//***********************************//
-    public InheritFinancial_Consultant_Actions(SHAFT.GUI.WebDriver driver) {
+    public PurchasingManag_Actions(SHAFT.GUI.WebDriver driver) {
         this.driver = driver;
     }
 

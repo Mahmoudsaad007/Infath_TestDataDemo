@@ -1,4 +1,4 @@
-package InheritancePages;
+package MergedRolesPages;
 
 import com.shaft.driver.SHAFT;
 import org.openqa.selenium.By;

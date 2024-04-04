@@ -4,9 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="687c27d5-f04d-482a-a71b-3496bf9ef25c" name="Changes" comment="New Branch for Merged Roles">
-      <change beforePath="$PROJECT_DIR$/src/test/java/Inheritance_DemoFlow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MergedRoles_DemoFlow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testNG.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testNG.xml" afterDir="false" />
+    <list default="true" id="687c27d5-f04d-482a-a71b-3496bf9ef25c" name="Changes" comment="New Branch for Merged Roles with changes names">
+      <change afterPath="$PROJECT_DIR$/src/main/java/MergedRolesPages/Supervisior_Actions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MergedRolesPages/justiceWriter_Actions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/InheritancePages/InheritFinancial_Consultant_Actions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/InheritancePages/InheritFinancial_Manager_Actions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MergedRolesPages/EvaluatorOrSP_Actions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/InheritancePages/InheritManager_Actions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MergedRolesPages/Collector_Actions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/InheritancePages/LegalConsultant_Actions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MergedRolesPages/Auth_Supervisor_Actions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/InheritancePages/LoginExternal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MergedRolesPages/LoginExternal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/InheritancePages/LoginInternal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MergedRolesPages/LoginInternal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/InheritancePages/PurchasingManag_Actions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MergedRolesPages/PurchasingManag_Actions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/InheritancePages/Specialist_Actions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MergedRolesPages/Specialist_Actions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/MergedRoles_DemoFlow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MergedRoles_DemoFlow.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +60,7 @@
     "TestNG.D:/Projects/Infath/Automation Codes/TestData_Prep/Inheritance_Flow1/testNG.xml.executor": "Run",
     "TestNG.LoginInternalTest (1).executor": "Run",
     "TestNG.LoginInternalTest.executor": "Run",
+    "TestNG.MergedRoles_DemoFlow.executor": "Run",
     "git-widget-placeholder": "Infath__Inheritance(Merged-Role)",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "D:/Projects/Infath/Automation Codes/from Colleages/from Omar Sami/InheritancesFlow",
@@ -70,7 +81,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.D:/Projects/Infath/Automation Codes/TestData_Prep/Inheritance_Flow1/testNG.xml">
+  <component name="RunManager" selected="TestNG.MergedRoles_DemoFlow">
     <configuration name="D:/Projects/Infath/Automation Codes/TestData_Prep/Inheritance_Flow1/testNG.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Inheritance_Flow1" />
       <shortenClasspath name="NONE" />
@@ -125,12 +136,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MergedRoles_DemoFlow" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Inheritance_Flow1" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MergedRoles_DemoFlow" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
+      <item itemvalue="TestNG.MergedRoles_DemoFlow" />
       <item itemvalue="TestNG.D:/Projects/Infath/Automation Codes/TestData_Prep/Inheritance_Flow1/testNG.xml" />
       <item itemvalue="TestNG.LoginInternalTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.MergedRoles_DemoFlow" />
         <item itemvalue="TestNG.D:/Projects/Infath/Automation Codes/TestData_Prep/Inheritance_Flow1/testNG.xml" />
         <item itemvalue="TestNG.LoginInternalTest" />
         <item itemvalue="TestNG.LoginInternalTest" />
@@ -161,11 +185,20 @@
       <option name="project" value="LOCAL" />
       <updated>1712231114125</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="New Branch for Merged Roles with changes names">
+      <option name="closed" value="true" />
+      <created>1712231691595</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1712231691595</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="New Branch for Merged Roles" />
-    <option name="LAST_COMMIT_MESSAGE" value="New Branch for Merged Roles" />
+    <MESSAGE value="New Branch for Merged Roles with changes names" />
+    <option name="LAST_COMMIT_MESSAGE" value="New Branch for Merged Roles with changes names" />
   </component>
 </project>
