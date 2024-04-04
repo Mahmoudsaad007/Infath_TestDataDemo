@@ -4,19 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="687c27d5-f04d-482a-a71b-3496bf9ef25c" name="Changes" comment="New Branch for Merged Roles with changes names">
-      <change afterPath="$PROJECT_DIR$/src/main/java/MergedRolesPages/Supervisior_Actions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/MergedRolesPages/justiceWriter_Actions.java" afterDir="false" />
+    <list default="true" id="687c27d5-f04d-482a-a71b-3496bf9ef25c" name="Changes" comment="Update the Merge roles Branch with Class names and 1 st flow which is run successfully">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/InheritancePages/InheritFinancial_Consultant_Actions.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/InheritancePages/InheritFinancial_Manager_Actions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MergedRolesPages/EvaluatorOrSP_Actions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/InheritancePages/InheritManager_Actions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MergedRolesPages/Collector_Actions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/InheritancePages/LegalConsultant_Actions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MergedRolesPages/Auth_Supervisor_Actions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/InheritancePages/LoginExternal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MergedRolesPages/LoginExternal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/InheritancePages/LoginInternal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MergedRolesPages/LoginInternal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/InheritancePages/PurchasingManag_Actions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MergedRolesPages/PurchasingManag_Actions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/InheritancePages/Specialist_Actions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MergedRolesPages/Specialist_Actions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/MergedRoles_DemoFlow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MergedRoles_DemoFlow.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,27 +38,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
-    "Maven.Inheritance_Flow1 [clean].executor": "Run",
-    "Maven.Inheritance_Flow1 [compile].executor": "Run",
-    "Maven.Inheritance_Flow1 [test].executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "TestNG.D:/Projects/Infath/Automation Codes/TestData_Prep/Inheritance_Flow1/testNG.xml.executor": "Run",
-    "TestNG.LoginInternalTest (1).executor": "Run",
-    "TestNG.LoginInternalTest.executor": "Run",
-    "TestNG.MergedRoles_DemoFlow.executor": "Run",
-    "git-widget-placeholder": "Infath__Inheritance(Merged-Role)",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Projects/Infath/Automation Codes/from Colleages/from Omar Sami/InheritancesFlow",
-    "project.structure.last.edited": "SDKs",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Inheritance_Flow1 [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Inheritance_Flow1 [compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Inheritance_Flow1 [test].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;TestNG.D:/Projects/Infath/Automation Codes/TestData_Prep/Inheritance_Flow1/testNG.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.LoginInternalTest (1).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.LoginInternalTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.MergedRoles_DemoFlow.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Infath__Inheritance(Merged-Role)&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Projects/Infath/Automation Codes/from Colleages/from Omar Sami/InheritancesFlow&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.javacompiler&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Projects\Infath\Automation Codes\TestData_Prep\Inheritance_Flow1" />
@@ -193,12 +182,21 @@
       <option name="project" value="LOCAL" />
       <updated>1712231691595</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Update the Merge roles Branch with Class names and 1 st flow which is run successfully">
+      <option name="closed" value="true" />
+      <created>1712233618207</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1712233618207</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="New Branch for Merged Roles" />
     <MESSAGE value="New Branch for Merged Roles with changes names" />
-    <option name="LAST_COMMIT_MESSAGE" value="New Branch for Merged Roles with changes names" />
+    <MESSAGE value="Update the Merge roles Branch with Class names and 1 st flow which is run successfully" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update the Merge roles Branch with Class names and 1 st flow which is run successfully" />
   </component>
 </project>
