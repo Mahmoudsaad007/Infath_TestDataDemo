@@ -5,8 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="687c27d5-f04d-482a-a71b-3496bf9ef25c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/InheritancePages/LegalConsultant_Actions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Inheritance_DemoFlow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/aws.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Inheritance_DemoFlow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MergedRoles_DemoFlow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/InheritancePages/Auth_Supervisor_Actions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/InheritancePages/InheritFinancial_Consultant_Actions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/InheritancePages/Collector_Actions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/InheritancePages/InheritFinancial_Manager_Actions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/InheritancePages/EvaluatorOrSP_Actions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/InheritancePages/LoginInternal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/InheritancePages/LoginInternal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/InheritancePages/Specialist_Actions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/InheritancePages/Specialist_Actions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/InheritancePages/Supervisior_Actions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/InheritancePages/justiceWriter_Actions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/InheritancePages/InheritManager_Actions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/LoginInternalTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/testDataFiles/UsersCredentials.Json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testDataFiles/UsersCredentials.Json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testNG.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testNG.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,11 +34,6 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="Infath_Inheritance" />
-      </map>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
@@ -51,7 +58,7 @@
     "TestNG.D:/Projects/Infath/Automation Codes/TestData_Prep/Inheritance_Flow1/testNG.xml.executor": "Run",
     "TestNG.LoginInternalTest (1).executor": "Run",
     "TestNG.LoginInternalTest.executor": "Run",
-    "git-widget-placeholder": "Merged__Roles",
+    "git-widget-placeholder": "Merging Merged__Roles",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "D:/Projects/Infath/Automation Codes/from Colleages/from Omar Sami/InheritancesFlow",
     "project.structure.last.edited": "SDKs",
@@ -132,8 +139,6 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.LoginInternalTest" />
-        <item itemvalue="TestNG.D:/Projects/Infath/Automation Codes/TestData_Prep/Inheritance_Flow1/testNG.xml" />
         <item itemvalue="TestNG.D:/Projects/Infath/Automation Codes/TestData_Prep/Inheritance_Flow1/testNG.xml" />
         <item itemvalue="TestNG.LoginInternalTest" />
         <item itemvalue="TestNG.LoginInternalTest" />
@@ -156,19 +161,6 @@
       <option name="presentableId" value="Default" />
       <updated>1712109734878</updated>
     </task>
-    <task id="LOCAL-00001" summary="Update Inheritance Classes Name">
-      <option name="closed" value="true" />
-      <created>1712133201476</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1712133201476</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="Update Inheritance Classes Name" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update Inheritance Classes Name" />
   </component>
 </project>
