@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="687c27d5-f04d-482a-a71b-3496bf9ef25c" name="Changes" comment="Update the Merge roles Branch with Class names and 1 st flow which is run successfully">
+    <list default="true" id="687c27d5-f04d-482a-a71b-3496bf9ef25c" name="Changes" comment="To renamed Merged Branch">
+      <change afterPath="$PROJECT_DIR$/src/main/java/API_Base/Infath_API.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/APIs_Send.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/testDataFiles/AssignCaseBody.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/testDataFiles/UpdateCaseBody.Json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,89 +42,90 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.Inheritance_Flow1 [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.Inheritance_Flow1 [compile].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.Inheritance_Flow1 [test].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;TestNG.D:/Projects/Infath/Automation Codes/TestData_Prep/Inheritance_Flow1/testNG.xml.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.LoginInternalTest (1).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.LoginInternalTest.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.MergedRoles_DemoFlow.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;Infath__Inheritance(Merged-Role)&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Projects/Infath/Automation Codes/from Colleages/from Omar Sami/InheritancesFlow&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.javacompiler&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "Maven.Inheritance_Flow1 [clean].executor": "Run",
+    "Maven.Inheritance_Flow1 [compile].executor": "Run",
+    "Maven.Inheritance_Flow1 [test].executor": "Run",
+    "Maven.Inheritance_Flow1 [validate].executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "TestNG.APIs_AssignCase.SendPost_AssignCase.executor": "Run",
+    "TestNG.APIs_Send (1).executor": "Run",
+    "TestNG.APIs_Send.SendPost_AssignCase.executor": "Run",
+    "TestNG.APIs_Send.SendPost_UpdateCase.executor": "Debug",
+    "TestNG.APIs_Send.executor": "Run",
+    "TestNG.D:/Projects/Infath/Automation Codes/TestData_Prep/Inheritance_Flow1/testNG.xml.executor": "Run",
+    "TestNG.LoginInternalTest (1).executor": "Run",
+    "TestNG.LoginInternalTest.executor": "Run",
+    "TestNG.MergedRoles_DemoFlow.chooseUserType.executor": "Run",
+    "TestNG.MergedRoles_DemoFlow.executor": "Run",
+    "git-widget-placeholder": "Infath__Inheritance(Merged-Role)",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/Projects/Infath/Automation Codes/TestData_Prep/Inheritance_Flow1/src/test/resources/testDataFiles",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Projects\Infath\Automation Codes\TestData_Prep\Inheritance_Flow1\src\test\resources\testDataFiles" />
+      <recent name="D:\Projects\Infath\Automation Codes\TestData_Prep\Inheritance_Flow1\src\main\java" />
       <recent name="D:\Projects\Infath\Automation Codes\TestData_Prep\Inheritance_Flow1" />
       <recent name="D:\Projects\Infath\Automation Codes\TestData_Prep\Inheritance_Flow1\src\main\resources" />
       <recent name="D:\Projects\Infath\Automation Codes\TestData_Prep\Inheritance_Flow1\src\test\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="InheritancePages" />
       <recent name="" />
+      <recent name="InheritancePages" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.MergedRoles_DemoFlow">
-    <configuration name="D:/Projects/Infath/Automation Codes/TestData_Prep/Inheritance_Flow1/testNG.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.APIs_Send">
+    <configuration name="APIs_Send (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Inheritance_Flow1" />
-      <shortenClasspath name="NONE" />
-      <useClassPathOnly />
-      <extension name="software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension">
-        <option name="credential" />
-        <option name="region" />
-        <option name="useCurrentConnection" value="false" />
-      </extension>
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/testNG.xml" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <option name="PARAMETERS" value="" />
-      <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="PROPERTIES_FILE" value="" />
+      <option name="MAIN_CLASS_NAME" value="APIs_Send" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
-      <listeners>
-        <listener class="com.shaft.listeners.TestNGListener" />
-      </listeners>
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginInternalTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="APIs_Send" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Inheritance_Flow1" />
-      <shortenClasspath name="NONE" />
-      <useClassPathOnly />
-      <extension name="software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension">
-        <option name="credential" />
-        <option name="region" />
-        <option name="useCurrentConnection" value="false" />
-      </extension>
-      <option name="SUITE_NAME" value="" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="LoginInternalTest" />
-      <option name="GROUP_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="APIs_Send" />
       <option name="TEST_OBJECT" value="CLASS" />
-      <option name="PARAMETERS" value="" />
-      <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <option name="PROPERTIES_FILE" value="" />
       <properties />
-      <listeners>
-        <listener class="com.shaft.listeners.TestNGListener" />
-      </listeners>
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="APIs_Send.SendPost_AssignCase" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Inheritance_Flow1" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="APIs_Send" />
+      <option name="METHOD_NAME" value="SendPost_AssignCase" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="APIs_Send.SendPost_UpdateCase" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Inheritance_Flow1" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="APIs_Send" />
+      <option name="METHOD_NAME" value="SendPost_UpdateCase" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -137,16 +142,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="TestNG.APIs_Send" />
+      <item itemvalue="TestNG.APIs_Send (1)" />
+      <item itemvalue="TestNG.APIs_Send.SendPost_AssignCase" />
+      <item itemvalue="TestNG.APIs_Send.SendPost_UpdateCase" />
       <item itemvalue="TestNG.MergedRoles_DemoFlow" />
-      <item itemvalue="TestNG.D:/Projects/Infath/Automation Codes/TestData_Prep/Inheritance_Flow1/testNG.xml" />
-      <item itemvalue="TestNG.LoginInternalTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.APIs_Send" />
+        <item itemvalue="TestNG.APIs_Send.SendPost_AssignCase" />
+        <item itemvalue="TestNG.APIs_Send (1)" />
+        <item itemvalue="TestNG.APIs_Send.SendPost_UpdateCase" />
         <item itemvalue="TestNG.MergedRoles_DemoFlow" />
-        <item itemvalue="TestNG.D:/Projects/Infath/Automation Codes/TestData_Prep/Inheritance_Flow1/testNG.xml" />
-        <item itemvalue="TestNG.LoginInternalTest" />
-        <item itemvalue="TestNG.LoginInternalTest" />
       </list>
     </recent_temporary>
   </component>

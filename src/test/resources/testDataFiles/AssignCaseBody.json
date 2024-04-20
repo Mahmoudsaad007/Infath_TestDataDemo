@@ -1,0 +1,99 @@
+{
+  "taskNumber": "Auto_MSaad0002",
+  "caseTypeId": "1",
+  "requestNumber": "Auto_MSaad_0002",
+  "requestTypeId": "114",
+  "iban": "SA5380000221608010702445",
+  "documentTypeId": "114",
+  "executionDeedNumber": "d-1313d",
+  "departmentId": "229",
+  "departmentOriginalId": "229",
+  "courtId": "1",
+  "courtOriginalId": "1",
+  "cityId": "1",
+  "regionId": "1",
+  "sellingTypeId": "1",
+  "excusionReqAmount": "10000",
+  "totalDebitAmount": "9000",
+  "assetDetails": {
+    "assetNumber": "B-Auto8000002",
+    "assetTypeId": "1",
+    "contactPersonName": "Ahmed",
+    "contactPersonPhone": "01111111111",
+    "isRestricted": "2",
+    "propertyDetails":
+    {
+      "deedNumber": "911000000002",
+      "deedDate": "2022-09-12",
+      "deedDateHijri": "1437-01-01",
+      "deedSourceId": "1",
+      "propertyTypeId": "7",
+      "propertyStatusId": "3",
+      "propertyDeedUpdateTypeId": "1",
+      "neighborhoodId": "11089",
+      "cityId": "42",
+      "isPropertyDeedMortgaged": "1",
+      "deedMortgagedSource": "dddddd",
+      "deedMortgagedAmount": "122122",
+      "deedMortgagedSourceApproval": "true",
+      "isAgriculture": "true",
+      "isPropertyBooked": "1",
+      "isPropertyBookedTanfeeth": "true",
+      "isPropertyDeedWill": "2",
+      "isPropertyDeedDevotion": "3",
+      "isRealEstateHalted": "3",
+      "isPropertyinLockedArea": "false"
+    },
+    "vehicleDetails": {
+      "vehicleTypeName": "v-motor",
+      "modelYear": "2023",
+      "plateNumber": "p-123458",
+      "serialNumber": "sn-sdsfw1022",
+      "isSeized": "2"
+    },
+    "movableDetails": {
+      "movableTypeId": "2",
+      "movableDescription": "desc",
+      "stockingDetails": "",
+      "isSeized": "2"
+    },
+    "ownerList": [
+      {
+        "identityTypeId": "1",
+        "identityNumber": "453424",
+        "name": "MSaad",
+        "unifiedNumber": "u-1234",
+        "ownershipPercentage": "50",
+        "owningArea": "50",
+        "isSelectedToSell": "true"
+      },
+      {
+        "identityTypeId": "1",
+        "identityNumber": "123456",
+        "name": "saad",
+        "unifiedNumber": "u-1534",
+        "ownershipPercentage": "50",
+        "owningArea": "60",
+        "isSelectedToSell": "false"
+      }
+    ]
+  },
+  "partiesDetails": [
+    {
+      "identityNumber": "64645",
+      "partyName": "p-eferwq",
+      "partyCategoryId": "2",
+      "identityTypeId": "1",
+      "ownershipFlag": "1",
+      "contactNumber": "01119088085",
+      "email": "marwan.assem1@gmail.com",
+      "UnifiedNumber": "676646224",
+      "birthDate": "131",
+      "birthDateHijri": "56453",
+      "decisionNumber": "d-57542",
+      "decisionTypeId": "9999",
+      "decisionDate": "1942-02-11",
+      "decisionDateHijri": "4242"
+    }
+  ]
+}
