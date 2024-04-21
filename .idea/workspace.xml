@@ -4,18 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="687c27d5-f04d-482a-a71b-3496bf9ef25c" name="Changes" comment="Update Merged Roles Flow Classes Name">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/aws.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="687c27d5-f04d-482a-a71b-3496bf9ef25c" name="Changes" comment="Adding Api (Assign Case and Update Case )">
+      <change afterPath="$PROJECT_DIR$/allure-report/2024-04-20_17-17-53-079_AllureReport.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/API_Base/Inheritance_API.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Infath_DataBase/Prep_DataBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/API_SendInheritance_SPToOS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Access_DataBase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/InheritancePages/EvaluatorOrSP_Actions.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/InheritancePages/LegalConsultant_Actions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/InheritancePages/LegalConsultant_Actions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/InheritancePages/LoginInternal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/InheritancePages/LoginInternal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/InheritancePages/Specialist_Actions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/InheritancePages/Specialist_Actions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/properties/Reporting.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/properties/Reporting.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/properties/default/TestNG.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/properties/default/TestNG.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/properties/default/cucumber.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/properties/default/cucumber.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/properties/default/customWebdriverCapabilities.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/properties/default/customWebdriverCapabilities.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/properties/default/log4j2.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/properties/default/log4j2.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Inheritance_DemoFlow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Inheritance_DemoFlow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/LoginInternalTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/testDataFiles/UsersCredentials.Json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testDataFiles/UsersCredentials.Json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testNG.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testNG.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,6 +33,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="Merged_Roles" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
@@ -62,20 +69,30 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.API_SendInheritance_SPToOS.SendPost_SendInheritance_SPToOS.executor": "Run",
+    "TestNG.API_SendInheritance_SPToOS.executor": "Run",
+    "TestNG.Access_DataBase (1).executor": "Run",
+    "TestNG.Access_DataBase (2).executor": "Run",
+    "TestNG.Access_DataBase.connectToDB.executor": "Run",
+    "TestNG.Access_DataBase.connectToDBAndExecuteQuery.executor": "Run",
+    "TestNG.Access_DataBase.executor": "Run",
     "TestNG.D:/Projects/Infath/Automation Codes/TestData_Prep/Inheritance_Flow1/testNG.xml.executor": "Run",
     "TestNG.Inheritance_DemoFlow (1).executor": "Run",
+    "TestNG.Inheritance_DemoFlow (2).executor": "Run",
     "TestNG.Inheritance_DemoFlow.assignSpecialistByLegalConsultant.executor": "Run",
+    "TestNG.Inheritance_DemoFlow.connectToDBAndExecuteQuery.executor": "Run",
     "TestNG.Inheritance_DemoFlow.executor": "Run",
     "TestNG.Inheritance_DemoFlow.loginInternalUserAsSupervisor.executor": "Run",
     "TestNG.LoginInternalTest (1).executor": "Run",
     "TestNG.LoginInternalTest.executor": "Run",
     "git-widget-placeholder": "Infath__Inheritance",
+    "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "D:/Projects/Infath/Automation Codes/from Colleages/from Omar Sami/InheritancesFlow",
     "project.structure.last.edited": "SDKs",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler"
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -89,7 +106,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Inheritance_DemoFlow">
+  <component name="RunManager" selected="TestNG.API_SendInheritance_SPToOS.SendPost_SendInheritance_SPToOS">
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
         <option name="Make" enabled="true" />
@@ -97,6 +114,63 @@
     </configuration>
     <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
       <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="API_SendInheritance_SPToOS" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Inheritance_Flow1" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <extension name="software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension">
+        <option name="credential" />
+        <option name="region" />
+        <option name="useCurrentConnection" value="false" />
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="API_SendInheritance_SPToOS" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners>
+        <listener class="com.shaft.listeners.TestNGListener" />
+      </listeners>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="API_SendInheritance_SPToOS.SendPost_SendInheritance_SPToOS" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Inheritance_Flow1" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <extension name="software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension">
+        <option name="credential" />
+        <option name="region" />
+        <option name="useCurrentConnection" value="false" />
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="API_SendInheritance_SPToOS" />
+      <option name="METHOD_NAME" value="SendPost_SendInheritance_SPToOS" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners>
+        <listener class="com.shaft.listeners.TestNGListener" />
+      </listeners>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -115,64 +189,6 @@
       <option name="MAIN_CLASS_NAME" value="Inheritance_DemoFlow" />
       <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="CLASS" />
-      <option name="PARAMETERS" value="" />
-      <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <option name="PROPERTIES_FILE" value="" />
-      <properties />
-      <listeners>
-        <listener class="com.shaft.listeners.TestNGListener" />
-      </listeners>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Inheritance_DemoFlow.assignSpecialistByLegalConsultant" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Inheritance_Flow1" />
-      <shortenClasspath name="NONE" />
-      <useClassPathOnly />
-      <extension name="software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension">
-        <option name="credential" />
-        <option name="region" />
-        <option name="useCurrentConnection" value="false" />
-      </extension>
-      <option name="SUITE_NAME" value="" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Inheritance_DemoFlow" />
-      <option name="METHOD_NAME" value="assignSpecialistByLegalConsultant" />
-      <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="PARAMETERS" value="" />
-      <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <option name="PROPERTIES_FILE" value="" />
-      <properties />
-      <listeners>
-        <listener class="com.shaft.listeners.TestNGListener" />
-      </listeners>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Inheritance_DemoFlow.loginInternalUserAsSupervisor" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Inheritance_Flow1" />
-      <shortenClasspath name="NONE" />
-      <useClassPathOnly />
-      <extension name="software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension">
-        <option name="credential" />
-        <option name="region" />
-        <option name="useCurrentConnection" value="false" />
-      </extension>
-      <option name="SUITE_NAME" value="" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Inheritance_DemoFlow" />
-      <option name="METHOD_NAME" value="loginInternalUserAsSupervisor" />
-      <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="METHOD" />
       <option name="PARAMETERS" value="" />
       <option name="OUTPUT_DIRECTORY" value="" />
       <option name="TEST_SEARCH_SCOPE">
@@ -215,15 +231,15 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG.Inheritance_DemoFlow.assignSpecialistByLegalConsultant" />
+      <item itemvalue="TestNG.API_SendInheritance_SPToOS.SendPost_SendInheritance_SPToOS" />
       <item itemvalue="TestNG.Inheritance_DemoFlow" />
-      <item itemvalue="TestNG.Inheritance_DemoFlow.loginInternalUserAsSupervisor" />
+      <item itemvalue="TestNG.API_SendInheritance_SPToOS" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.API_SendInheritance_SPToOS.SendPost_SendInheritance_SPToOS" />
+        <item itemvalue="TestNG.API_SendInheritance_SPToOS" />
         <item itemvalue="TestNG.Inheritance_DemoFlow" />
-        <item itemvalue="TestNG.Inheritance_DemoFlow.assignSpecialistByLegalConsultant" />
-        <item itemvalue="TestNG.Inheritance_DemoFlow.loginInternalUserAsSupervisor" />
         <item itemvalue="TestNG.Inheritance_DemoFlow" />
       </list>
     </recent_temporary>

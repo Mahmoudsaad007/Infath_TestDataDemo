@@ -4,14 +4,15 @@
     <test name="Inheritance Flow Demo All in One ">
         <classes>
             <class name="Inheritance_DemoFlow">
+
 <!--                <methods>-->
 <!--                    <include name="" />-->
 <!--                    <include name="" />-->
 <!--                </methods>-->
             </class>
-<!--            <class -->
-<!--                    name="Inheritance_DemoFlow">-->
-<!--            </class>-->
+            <class
+                    name="API_SendInheritance_SPToOS">
+            </class>
 
         </classes>
         </test>
