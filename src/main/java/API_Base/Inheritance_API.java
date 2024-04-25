@@ -15,6 +15,8 @@ public class Inheritance_API {
 
 //    static  int AgreementNumber = 2000;
 
+    // Request ID to be bound by this class value "$('.ERP_Request_ID').val()"
+
 
     //constructor
     public Inheritance_API(SHAFT.API apiObject) {

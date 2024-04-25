@@ -3,7 +3,6 @@ package InheritancePages;
 import com.shaft.driver.SHAFT;
 import com.shaft.validation.Validations;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
 
 public class LoginInternal {
 
@@ -12,6 +11,8 @@ public class LoginInternal {
     private final SHAFT.GUI.WebDriver driver;
     private String InternalURL = "https://es-qa.infath.sa/Eservices_Internal/Login?CurrentLocale=ar-SA" ;
             // "https://es-qa.infath.sa/Eservices_Internal/Login?CurrentLocale=en-US";
+
+//    private String OpenInher_Details_Btn =// Request ID to be bound by this class value "$('.ERP_Request_ID').val()"
 
 
     //***********************************Constructor***********************************//
@@ -32,6 +33,19 @@ public class LoginInternal {
     public By InfathLoginMsg = By.xpath("//span[@class='text-secondary']");
     // msg in login page "من فضلك قم بتسجيل الدخول"
 
+    public By OpenInhert_Details = By.xpath("//*[@id=\"b12-Main\"]/div[2]/div/table/tbody/tr/td[11]/a");
+
+    public By Inheritance_Num = By.xpath("//*[@id=\"b11-Inheritance_Number\"]");
+
+
+    public By Search_BTN = By.xpath("//*[@id=\"b11-Form1\"]/div/div[5]/button");
+
+    public By ERP_Request_ID = By.xpath("//*[@id=\"b4-b2-Input_Unique_Id\"]");
+
+
+
+//    RequestID
+
 
     //***********************************Actions***********************************//
     public void loginInternalUser(String name, String password) {
@@ -43,6 +57,22 @@ public class LoginInternal {
                 .type(UserName_Internal, name)
                 .type(Password_Internal, password)
                 .click(Login_Btn);
+
+    }
+
+    // function to verify get  request Id
+    public void OpenInheritancePage(String  Inheritance_Number) {
+        driver.element()
+                .type(Inheritance_Num, Inheritance_Number)
+                .click(Search_BTN)
+                .click(OpenInhert_Details);
+    }
+
+    public String getRequestId() {
+        return driver.element()
+                .clickUsingJavascript(ERP_Request_ID).getText(ERP_Request_ID);
+
+
 
     }
 

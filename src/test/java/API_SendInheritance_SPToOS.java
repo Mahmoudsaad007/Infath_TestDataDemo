@@ -13,6 +13,8 @@ import org.testng.annotations.Test;
     private Inheritance_API inheritanceApi;
     public SHAFT.API apiObject;
 
+
+
     @BeforeClass(description = "prepare driver and test data")
     public void beforeClass() {
         SHAFT.API apiObject = new SHAFT.API(Inheritance_API.BaseURL);

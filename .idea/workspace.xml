@@ -4,21 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="687c27d5-f04d-482a-a71b-3496bf9ef25c" name="Changes" comment="Adding Api (Assign Case and Update Case )">
-      <change afterPath="$PROJECT_DIR$/allure-report/2024-04-20_17-17-53-079_AllureReport.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/API_Base/Inheritance_API.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Infath_DataBase/Prep_DataBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/API_SendInheritance_SPToOS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Access_DataBase.java" afterDir="false" />
+    <list default="true" id="687c27d5-f04d-482a-a71b-3496bf9ef25c" name="Changes" comment="Adding Inheritance Api (SendInheritance_SPToOS)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/properties/Reporting.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/properties/Reporting.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/properties/default/TestNG.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/properties/default/TestNG.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/properties/default/cucumber.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/properties/default/cucumber.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/properties/default/customWebdriverCapabilities.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/properties/default/customWebdriverCapabilities.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/properties/default/log4j2.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/properties/default/log4j2.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/API_Base/Inheritance_API.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/API_Base/Inheritance_API.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/InheritancePages/LoginInternal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/InheritancePages/LoginInternal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/API_SendInheritance_SPToOS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/API_SendInheritance_SPToOS.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Inheritance_DemoFlow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Inheritance_DemoFlow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testNG.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testNG.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/testDataFiles/UsersCredentials.Json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testDataFiles/UsersCredentials.Json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,11 +94,11 @@
       <recent name="D:\Projects\Infath\Automation Codes\TestData_Prep\Inheritance_Flow1\src\test\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="InheritancePages" />
       <recent name="" />
+      <recent name="InheritancePages" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.API_SendInheritance_SPToOS.SendPost_SendInheritance_SPToOS">
+  <component name="RunManager" selected="TestNG.Inheritance_DemoFlow (2)">
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
         <option name="Make" enabled="true" />
@@ -161,6 +153,62 @@
       <option name="METHOD_NAME" value="SendPost_SendInheritance_SPToOS" />
       <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners>
+        <listener class="com.shaft.listeners.TestNGListener" />
+      </listeners>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Inheritance_DemoFlow (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Inheritance_Flow1" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <extension name="software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension">
+        <option name="credential" />
+        <option name="region" />
+        <option name="useCurrentConnection" value="false" />
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Inheritance_DemoFlow" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners>
+        <listener class="com.shaft.listeners.TestNGListener" />
+      </listeners>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Inheritance_DemoFlow (2)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Inheritance_Flow1" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <extension name="software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension">
+        <option name="credential" />
+        <option name="region" />
+        <option name="useCurrentConnection" value="false" />
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Inheritance_DemoFlow" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <option name="PARAMETERS" value="" />
       <option name="OUTPUT_DIRECTORY" value="" />
       <option name="TEST_SEARCH_SCOPE">
@@ -232,14 +280,17 @@
     </configuration>
     <list>
       <item itemvalue="TestNG.API_SendInheritance_SPToOS.SendPost_SendInheritance_SPToOS" />
+      <item itemvalue="TestNG.Inheritance_DemoFlow (1)" />
+      <item itemvalue="TestNG.Inheritance_DemoFlow (2)" />
       <item itemvalue="TestNG.Inheritance_DemoFlow" />
       <item itemvalue="TestNG.API_SendInheritance_SPToOS" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Inheritance_DemoFlow (2)" />
+        <item itemvalue="TestNG.Inheritance_DemoFlow (1)" />
         <item itemvalue="TestNG.API_SendInheritance_SPToOS.SendPost_SendInheritance_SPToOS" />
         <item itemvalue="TestNG.API_SendInheritance_SPToOS" />
-        <item itemvalue="TestNG.Inheritance_DemoFlow" />
         <item itemvalue="TestNG.Inheritance_DemoFlow" />
       </list>
     </recent_temporary>
@@ -260,6 +311,19 @@
       <option name="presentableId" value="Default" />
       <updated>1712109734878</updated>
     </task>
+    <task id="LOCAL-00001" summary="Adding Inheritance Api (SendInheritance_SPToOS)">
+      <option name="closed" value="true" />
+      <created>1713672652873</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1713672652873</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Adding Inheritance Api (SendInheritance_SPToOS)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding Inheritance Api (SendInheritance_SPToOS)" />
   </component>
 </project>
