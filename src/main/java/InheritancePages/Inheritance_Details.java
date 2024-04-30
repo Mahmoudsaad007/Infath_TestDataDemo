@@ -6,6 +6,7 @@ import org.openqa.selenium.*;
 public class Inheritance_Details {
     private SHAFT.GUI.WebDriver driver;
 
+    // ********************************** locators ************************************//
     private By UserRoles_DropDown = By.xpath("//*[@id=\"b2-b3-b2-RolesList2\"]");
 
     private By AddNewInheritance_BTN = By.xpath("//div/button[text()='إضافة تركة جديدة']");
@@ -44,14 +45,12 @@ public class Inheritance_Details {
     public By ViewInheritance_Details_BTN = By.xpath("(//td/a)[1]");
 
 
-
-
     //*********************Constructor*********************//
     public Inheritance_Details(SHAFT.GUI.WebDriver driver) {
         this.driver = driver;
     }
 
-    //*********************Methods*********************//
+    //********************************  Methods  ********************************************************//
 
     //Generate Tst Random Number
     public int generateTstRandomNumber() {
@@ -59,7 +58,6 @@ public class Inheritance_Details {
         generateTstRandomNumber++;
         return generateTstRandomNumber;
     }
-
 
 
     // verify user Role
@@ -154,7 +152,7 @@ public class Inheritance_Details {
         return driver.element().getText(Fail_Msg);
     }
 
-    public  String getRequestId() {
+    public String getRequestId() {
         return driver.element()
                 .clickUsingJavascript(ERP_Request_ID).getText(ERP_Request_ID);
 

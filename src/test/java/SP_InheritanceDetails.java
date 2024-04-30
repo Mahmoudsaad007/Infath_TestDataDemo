@@ -13,7 +13,6 @@ import java.awt.*;
 public class SP_InheritanceDetails extends TestBase{
 
 
-
     protected static String NewAsset_Number;
     //Open Inheritance Details Page
     @Description("this test is to  Add and Sending Inheritance Details")
@@ -28,10 +27,11 @@ public class SP_InheritanceDetails extends TestBase{
 //                .withCustomReportMessage("Language changed successfully into Arabic").perform();
 
         String New_deedNumber = AddInheritance_Tst_Data.getTestData("AssetType_Properties_deedNumber");
-        // get the Inheritance Number from the page Inheritance details to search with it
 
+
+        // get the Inheritance Number from the page Inheritance details to search with it
 //        Search and Open Inheritance Details Page
-//        serviceProvider.SearchAndOpenInheritance("INH0930");
+//        serviceProvider.SearchAndOpenInheritance("INH0930");  // to use it as a separated run
         serviceProvider.SearchAndOpenInheritance(AddNewInheritance_Test.NewCreatedInheritance_Number);
 
         //verify that user is on Inheritance Details Page
@@ -58,12 +58,11 @@ public class SP_InheritanceDetails extends TestBase{
 //                        + InheritanceStatus_AfterSent).perform();
 
         // Add Asset Property
-//        serviceProvider.SearchAndOpenInheritance("INH0931");
+//        serviceProvider.SearchAndOpenInheritance("INH0931");  // to use it as a separated run
 
         serviceProvider.Add_AssetType_Properties(New_deedNumber);
         serviceProvider.Select_Send_Asset();
         NewAsset_Number = serviceProvider.getAsset_Number();
-//        System.out.println("asset no. is = " + NewAsset_Number);
 
         //verify that Inheritance Details is sent successfully "msg is not working propaparly"
 //           String SendInheritance_SuccessMsg = serviceProvider.verify_Send_InheritanceSuccessMsg();

@@ -9,8 +9,10 @@ import java.awt.event.KeyEvent;
 
 public class ServiceProvider {
 
-
+    //***********************************variables***********************************//
     private final SHAFT.GUI.WebDriver driver;
+
+    //***********************************Locators***********************************//
     public By Inheritance_Number = By.id("b12-Inheritance_Number");
     public By Inheritance_search_BTN = By.xpath("(//div/button)[2]");
     public By View_Details_BTN = By.xpath("(//td/a)[1]");
@@ -58,9 +60,12 @@ public class ServiceProvider {
 
     public By FirefoxError_TXT = By.xpath("/html/body/div[1]/div/div");
 
+    //***********************************Constructor***********************************//
     public ServiceProvider(SHAFT.GUI.WebDriver driver) {
         this.driver = driver;
     }
+
+    //***********************************Methods***********************************//
 
     public void SearchAndOpenInheritance(String Inhert_Number) throws InterruptedException {
 
@@ -122,11 +127,10 @@ public class ServiceProvider {
 //        robot.keyRelease(KeyEvent.VK_CONTROL);
     }
 
-    //Func to add Basic inheritance details
+    //Func to add Basic inheritance details "needs to be more enhanced for validation"
     public void Send_BasicInheritanceDetails(String BasicInhert_Name,
                                              String BasicInhert_Phone,
                                              String BasicHeirsData_ID) throws InterruptedException, AWTException {
-
         driver.element()
                 .type(Basic_Inhert_Name, BasicInhert_Name)
                 .keyPress(Basic_Inhert_Name, Keys.TAB)
@@ -153,13 +157,11 @@ public class ServiceProvider {
 ////                    .hover(Basic_Inhert_Name)
 //                    .click(Basic_Inhert_Name);
 //            delete_TXT_FieldData();
-//
 //            driver.element()
 //                    .type(Basic_Inhert_Name, BasicInhert_Name)
 ////                    .hover(Basic_Inhert_Phone)
 //                    .click(Basic_Inhert_Phone);
 //            delete_TXT_FieldData();
-//
 //            driver.element()
 //                    .type(Basic_Inhert_Phone, BasicInhert_Phone)
 //                    .click(Basic_Next_BTN)
@@ -242,7 +244,6 @@ public class ServiceProvider {
     public By IsPropertyDeedDevotion = By.xpath("//*[@id=\"b5-b2-b2-b2-b4-RadioButton10-input\"]");
     public By InquiryAttachments_Upload = By.xpath("//*[@id=\"b5-b2-b2-b2-b4-b29-FileUploadInput\"]");
     public By Report_Upload = By.xpath("//*[@id=\"b5-b2-b2-b2-b4-b31-FileUploadInput\"]");
-
 
     public By ProcedureCurrentStatus_Dropdown = By.xpath("//*[@id=\"b5-b2-b2-b2-b4-b34-Input_ProcedureStatus\"]");
     public By DescriptionofCurrentProcedure = By.xpath("//*[@id=\"b5-b2-b2-b2-b4-b34-TextArea_Description\"]");

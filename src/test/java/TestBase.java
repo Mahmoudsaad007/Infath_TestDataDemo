@@ -5,6 +5,8 @@ import org.testng.annotations.BeforeClass;
 
 public class TestBase {
 
+
+    // Precondition the Project classes
     protected static SHAFT.GUI.WebDriver driver;
     protected LoginInternal loginInternal;
 

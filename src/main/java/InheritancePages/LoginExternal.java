@@ -34,7 +34,7 @@ public class LoginExternal {
     // another x path "///*[@id="b3-$b1"]/div[1]/div[2]/div[1]/div/span"
 
 
-    //***********************************Actions***********************************//
+    //***********************************Actions ***********************************//
     public void loginExternalUser(String UserName, String Password){
         driver.browser().navigateToURL(ExternalURL);
         driver.element()

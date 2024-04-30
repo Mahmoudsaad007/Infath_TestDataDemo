@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 
 import java.awt.*;
 
-public class Inheritance_DemoFlow  extends TestBase {
+public class Inherit_DemoFlow_NotUsed extends TestBase {
 
     AddNewInheritance_Test add_NewInheritance;
     StudyInheritance_TST study_Inheritance;

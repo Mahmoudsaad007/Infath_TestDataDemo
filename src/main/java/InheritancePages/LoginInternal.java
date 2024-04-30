@@ -39,22 +39,14 @@ public class LoginInternal {
     // msg in login page "من فضلك قم بتسجيل الدخول"
 
 
-
     public By OpenInhert_Details = By.xpath("//*[@id=\"b12-Main\"]/div[2]/div/table/tbody/tr/td[11]/a");
-
     public By Inheritance_Num = By.xpath("//*[@id=\"b11-Inheritance_Number\"]");
-
 
     public By Search_BTN = By.xpath("//*[@id=\"b11-Form1\"]/div/div[5]/button");
 
 
 
-
-
-//    RequestID
-
-
-    //***********************************Actions***********************************//
+    //*********************************** Actions ***********************************//
     public void loginInternalUser(String name, String password) {
         driver.browser().navigateToURL(InternalURL);
 //        driver.element().waitToBeReady(UserName_Internal);

@@ -14,7 +14,7 @@ public class AddNewInheritance_Test extends TestBase {
                     UserCredentials.getTestData("Password_MSaad"));
 
         String loggedInUserRole = inheritanceDetails.GetLoggedInUserRole();
-        // verify if the logged in user role is not Inheritance Consultant go to select it
+        // verify if the logged-in user role is not Inheritance Consultant go to select it
         if (!loggedInUserRole.equals("Inheritance_Consultant")) {
             inheritanceDetails.SelectRole_Inheritance_Consultant();
         }

@@ -10,6 +10,7 @@ public class Inheritance_List {
 
     private SHAFT.GUI.WebDriver driver;
 
+    // ************************** locators *********************************//
     private By AddBtn = By.xpath("//div/button[text()='إضافة تركة جديدة']");
     private By InheritanceConsultant = By.xpath("(//td)[5]/span");
     //private By LoggedInUser = By.xpath("//div/span[@class='font-semi-bold heading6']");
@@ -68,7 +69,7 @@ public class Inheritance_List {
     }
 
 
-    //************Methods*****************************************//
+    //********************************Methods*****************************************//
 
     // Search by inheritance Number
     public void Search_By_Inheritance_Number(String Created_Inheritance_Number) {
@@ -104,6 +105,7 @@ public class Inheritance_List {
 //             driver.element().getAttribute(InheritanceConsultant,"data-expression")   ;
     }
 
+    // If conditions call this function to study Inheritance as per assigned Consultant
     public void StudyInheritanceBy_MSaad() throws InterruptedException, AWTException {
         driver.element()
                 .click(ViewDet)
@@ -128,8 +130,7 @@ public class Inheritance_List {
         Zoom_Out();
         driver.element()
                 .clickUsingJavascript(Send_BTN);
-//                    .click(Approve_BTN)
-//                    .click(ApproveConf_BTN);
+
     }
 
     public void StudyInheritanceBy_Omar() throws InterruptedException, AWTException {
@@ -156,8 +157,7 @@ public class Inheritance_List {
         Zoom_Out();
         driver.element()
                 .clickUsingJavascript(Send_BTN);
-//                    .click(Approve_BTN)
-//                    .click(ApproveConf_BTN);
+
     }
 
     public void StudyInheritanceBy_Mai() throws InterruptedException, AWTException {
@@ -184,8 +184,7 @@ public class Inheritance_List {
         Zoom_Out();
         driver.element()
                 .clickUsingJavascript(Send_BTN);
-        //                    .click(Approve_BTN)
-        //                    .click(ApproveConf_BTN);
+
     }
 
     public void StudyInheritanceBy_Marwan() throws InterruptedException, AWTException {
@@ -212,21 +211,7 @@ public class Inheritance_List {
         Zoom_Out();
         driver.element()
                 .clickUsingJavascript(Send_BTN);
-        //                    .click(Approve_BTN)
-        //                    .click(ApproveConf_BTN);
-    }
 
-    //zooming func
-    public void Zoom_Out() throws AWTException {
-//        zoom using robot
-        Robot robot = new Robot();
-        robot.keyPress(KeyEvent.VK_CONTROL);
-        robot.keyPress(KeyEvent.VK_SUBTRACT);
-        robot.keyRelease(KeyEvent.VK_SUBTRACT);
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-//        robot.keyPress(KeyEvent.VK_ADD);
-//        robot.keyRelease(KeyEvent.VK_ADD);
-//        robot.keyRelease(KeyEvent.VK_CONTROL);
     }
 
     public void StudyInheritanceBy_Latif() throws InterruptedException, AWTException {
@@ -253,8 +238,19 @@ public class Inheritance_List {
         Zoom_Out();
         driver.element()
                 .clickUsingJavascript(Send_BTN);
-        //                    .click(Approve_BTN)
-        //                    .click(ApproveConf_BTN);
+    }
+
+    //zooming func
+    public void Zoom_Out() throws AWTException {
+//        zoom using robot
+        Robot robot = new Robot();
+        robot.keyPress(KeyEvent.VK_CONTROL);
+        robot.keyPress(KeyEvent.VK_SUBTRACT);
+        robot.keyRelease(KeyEvent.VK_SUBTRACT);
+        robot.keyRelease(KeyEvent.VK_CONTROL);
+//        robot.keyPress(KeyEvent.VK_ADD);
+//        robot.keyRelease(KeyEvent.VK_ADD);
+//        robot.keyRelease(KeyEvent.VK_CONTROL);
     }
 
 }

@@ -7,6 +7,7 @@ import java.awt.*;
 
 public class StudyInheritance_TST extends TestBase{
 
+    // Consultant Study inheritance
     @Description("this test is to study the New Inheritance")
     @Test(priority = 1, description = "Study the New Inheritance")
     public void StudyInheritance_Func_TST() throws InterruptedException, AWTException {
