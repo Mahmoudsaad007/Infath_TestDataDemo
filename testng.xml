@@ -1,0 +1,38 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Infath_Inheritance Demo" parallel="false">
+    <test verbose="2" name="Inheritance Flow Demo All in One ">
+        <classes>
+            <class name="AddNewInheritance_Test">
+                <methods>
+                    <include name="AddNewInheritance_Func_Tst"/>
+                </methods>
+            </class>
+            <class name="StudyInheritance_TST">
+                <methods>
+                    <include name="StudyInheritance_Func_TST"/>
+                </methods>
+            </class>
+            <class name="Approve_Inheritance_Test">
+                <methods>
+                    <include name="Approve_NewInheritance_Func_TST"/>
+<!--                    <include name= "Get_RequestID_AfterApproval"/>-->
+                </methods>
+            </class>
+            <class name="API_SendInheritance_SPToOS">
+                <methods>
+                    <include name="SendPost_SendInheritance_SPToOS"/>
+                </methods>
+            </class>
+            <class name="SP_InheritanceDetails">
+                <methods>
+                    <include name="Sending_Basic_InheritanceDetails"/>
+                </methods>
+            </class>
+            <class name="Approve_AssetAndInherit_Test">
+                <methods>
+                    <include name="Approve_NewInherit_AndAsset_Func_TST"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

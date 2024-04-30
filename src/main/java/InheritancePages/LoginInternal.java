@@ -30,8 +30,15 @@ public class LoginInternal {
     public By Login_Btn = By.xpath("//div[@class='btn-label OSInline']");//
     //*[@id="b2-Button"]/button/div[2]
     // div[@class='btn-label OSInline']
-    public By InfathLoginMsg = By.xpath("//span[@class='text-secondary']");
+
+    public By Logout_Btn = By.xpath("//img[@class='logout_img']");
+    public By LoggedIn_UserName = By.xpath("(//div/span)[8]");
+
+    public By InfathLoginMsg = By.xpath("(//h1/label/span)[1]");
+    // "//span[@class='text-secondary']"
     // msg in login page "من فضلك قم بتسجيل الدخول"
+
+
 
     public By OpenInhert_Details = By.xpath("//*[@id=\"b12-Main\"]/div[2]/div/table/tbody/tr/td[11]/a");
 
@@ -40,7 +47,7 @@ public class LoginInternal {
 
     public By Search_BTN = By.xpath("//*[@id=\"b11-Form1\"]/div/div[5]/button");
 
-    public By ERP_Request_ID = By.xpath("//*[@id=\"b4-b2-Input_Unique_Id\"]");
+
 
 
 
@@ -60,33 +67,31 @@ public class LoginInternal {
 
     }
 
+    // function return log out btn
+    public void Logout() {
+        driver.element().click(Logout_Btn);
+    }
+
+    // function return log out btn icon
+    public boolean LogoutIcon() {
+        return driver.element().isElementDisplayed(Logout_Btn);
+    }
+
+
+
+    public String getLoggedInUserName() {
+        return driver.element().getText(LoggedIn_UserName);
+    }
+
+
     // function to verify get  request Id
-    public void OpenInheritancePage(String  Inheritance_Number) {
+    public void OpenInheritancePage(Object  Inheritance_Number) {
         driver.element()
-                .type(Inheritance_Num, Inheritance_Number)
+                .type(Inheritance_Num, (String) Inheritance_Number)
                 .click(Search_BTN)
                 .click(OpenInhert_Details);
     }
 
-    public String getRequestId() {
-        return driver.element()
-                .clickUsingJavascript(ERP_Request_ID).getText(ERP_Request_ID);
 
-
-
-    }
-
-
-//Selenium code
-
-//        public ReportListsPage login( String name, String password) {
-//            driver.navigate().to("https://es-qa.infath.sa/Eservices_Internal/Login?CurrentLocale=en-US");
-//            WaitFor(UserName_Internal);
-//            driver.findElement(UserName_Internal).sendKeys(name);
-//            driver.findElement(Password_Internal).sendKeys(password);
-//            JsClick(Login_Btn);
-////        To delete later
-//            return new ReportListsPage(driver);
-//        }
 
 }

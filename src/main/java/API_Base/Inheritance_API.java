@@ -25,13 +25,25 @@ public class Inheritance_API {
 
 
     ///****************************************Supported Functions//****************************************
-    public JSONObject buildJsonBody(String requestId , String AgreementNumber ) throws JSONException {
+    public JSONObject buildJsonBody(String requestId , String AgreementNumber , String spGUID ) throws JSONException {
         JSONObject jsonBody = new JSONObject();
-        jsonBody.put("requestID", "Mo_" + requestId);
-        jsonBody.putOpt("agreementNumber", "PO-" + AgreementNumber);
-        jsonBody.put("agreementCopy", buildAgreementCopy_Value()); // If agreementCopy is nested
+        JSONObject agreementCopy = new JSONObject();
+//        JSONObject spGUID = new JSONObject();
+        agreementCopy.put("attachmentType", "pdf");
+        agreementCopy.put("attachmentName", "SP");
+        agreementCopy.put("attachmentContent", "d2VsY29tZSB0byBJbmZhdGg=");
+
+        jsonBody.put("requestID", requestId);
+        jsonBody.put("agreementNumber", "PO-" + AgreementNumber);
+        jsonBody.put("agreementCopy", agreementCopy); // If agreementCopy is nested
         jsonBody.put("agreementDate", "2024-02-15");
-        jsonBody.put("spGUID", "c772a9b0-267e-ea11-b8fe-825c1f79d6c4");
+        jsonBody.put("spGUID", spGUID);
+
+//        "spGUID": "c772a9b0-267e-ea11-b8fe-825c1f79d6c4"  //>> 7011010654
+//        // e529f006-f18d-ea11-b8fa-cec4bf13e2fe >> 1010340560
+//        //db589267-92e4-eb11-b915-c9af5da65e1f >>  1010406413
+
+
         // Add more key-value pairs as needed
         return jsonBody;
     }
@@ -39,15 +51,15 @@ public class Inheritance_API {
     //to Parse nested Parameter "agreementCopy"
     // which has nested parameter and need to pass it into BuildJson Func
     // to send JsonBody into API function
-    private JSONObject buildAgreementCopy_Value() throws JSONException {
-        // Create a separate method for nested objects
-        JSONObject agreementCopy = new JSONObject();
-        agreementCopy.put("attachmentContent", "d2VsY29tZSB0byBJbmZhdGg");
-        agreementCopy.put("attachmentName", "SP");
-        agreementCopy.put("attachmentType", "pdf");
-        // Add more key-value pairs for agreementCopy
-        return agreementCopy;
-    }
+//    private JSONObject buildAgreementCopy_Value() throws JSONException {
+//        // Create a separate method for nested objects
+//        JSONObject agreementCopy = new JSONObject();
+//        agreementCopy.put("attachmentType", "pdf");
+//        agreementCopy.put("attachmentName", "SP");
+//        agreementCopy.put("attachmentContent", "d2VsY29tZSB0byBJbmZhdGg");
+//        // Add more key-value pairs for agreementCopy
+//        return agreementCopy;
+//    }
 
     // Function to set agreementNumber to dynamic integer value started from 4 digits started with 2000 into above
 //    private int generateRandomAgreementNumber() {
@@ -70,16 +82,16 @@ public class Inheritance_API {
 
 
     //**********************************************//Methods/Actions//**********************************************
-    public Response SendInheritance_SPToOS_API(String Request_ID, String AgreementNumber) throws JSONException {
+    public Response SendInheritance_SPToOS_API(JSONObject JsonBody) throws JSONException {
         apiObject = new SHAFT.API(BaseURL);
-        JSONObject Request_JsonBody = buildJsonBody(Request_ID, AgreementNumber);
+//        JSONObject Request_JsonBody = buildJsonBody(Request_ID, AgreementNumber);
         return apiObject.post(SendInheritance_SPToOS)
                 .addHeader("Authorization", "Basic U0E6UEBzc3cwcmRAMTIzNjU0")
                 .addHeader("Connection", "keep-alive")
                 .addHeader("Accept-Encoding", "gzip, deflate, br")
                 .addHeader("Accept", "*/*")
                 .setContentType("application/json")
-                .setRequestBody(Request_JsonBody)
+                .setRequestBody(JsonBody)
                 .performRequest();
 
 //                .setRequestBodyFromFile("src/test/resources/testDataFiles/AssignCaseBody.json")
